@@ -34,26 +34,16 @@ CREATE TABLE IF NOT EXISTS catalogo_imagens (
 );
 ```
 
-### 🚀 Como Executar
-1. Clonar o repositório
-```Bash
-git clone https://github.com/<seu-usuario>/s3-postgres-data-catalog.git
-cd s3-postgres-data-catalog
+## 🚀 Como Executar
+
+### 1. Abrir o Notebook no Google Colab
+Abra o arquivo `pipeline.ipynb` diretamente no [Google Colab](https://colab.research.google.com/drive/11g47uo9N19y92wg3pKtinLzygeZk8J63?usp=sharing).
+
+### 2. Instalar as Dependências
+Na primeira célula do notebook, execute:
+```python
+!pip install psycopg2-binary boto3
 ```
-
-2. Instalar dependências
-```Bash
-pip install -r requirements.txt
-```
-
-3. Configurar variáveis e executar
-Configure suas credenciais da AWS e os parâmetros de conexão do banco diretamente nas variáveis de ambiente ou no script e execute:
-
-```Bash
-python pipeline.py
-```
-Snippet de código
-
 ---
 
 ### Comandos Git para subir o projeto
